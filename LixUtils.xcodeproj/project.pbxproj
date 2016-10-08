@@ -15,6 +15,16 @@
 		5651C66A1DA89D2900DD4C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5651C6681DA89D2900DD4C38 /* LaunchScreen.storyboard */; };
 		5651C6751DA89D2900DD4C38 /* LixUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6741DA89D2900DD4C38 /* LixUtilsTests.m */; };
 		5651C6801DA89D2900DD4C38 /* LixUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C67F1DA89D2900DD4C38 /* LixUtilsUITests.m */; };
+		5651C6AB1DA89D3800DD4C38 /* NSString+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6921DA89D3800DD4C38 /* NSString+LixExtension.m */; };
+		5651C6AC1DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6941DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.m */; };
+		5651C6AD1DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6961DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.m */; };
+		5651C6AE1DA89D3800DD4C38 /* UIImage+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6981DA89D3800DD4C38 /* UIImage+LixExtension.m */; };
+		5651C6AF1DA89D3800DD4C38 /* UINavigationBar+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C69A1DA89D3800DD4C38 /* UINavigationBar+LixExtension.m */; };
+		5651C6B01DA89D3800DD4C38 /* UIView+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C69C1DA89D3800DD4C38 /* UIView+LixExtension.m */; };
+		5651C6B21DA89D3800DD4C38 /* CalculateLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6A31DA89D3800DD4C38 /* CalculateLayout.m */; };
+		5651C6B31DA89D3800DD4C38 /* LixAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6A51DA89D3800DD4C38 /* LixAlertUtil.m */; };
+		5651C6B41DA89D3800DD4C38 /* LixUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5651C6A71DA89D3800DD4C38 /* LixUtils.m */; };
+		DABDF8DC78FD29FB2CE494B1 /* Pods_LixUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D3C76CF1933D19F8475513 /* Pods_LixUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19D3C76CF1933D19F8475513 /* Pods_LixUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LixUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651C6571DA89D2900DD4C38 /* LixUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LixUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651C65B1DA89D2900DD4C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5651C65D1DA89D2900DD4C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,28 @@
 		5651C67B1DA89D2900DD4C38 /* LixUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651C67F1DA89D2900DD4C38 /* LixUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LixUtilsUITests.m; sourceTree = "<group>"; };
 		5651C6811DA89D2900DD4C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5651C6911DA89D3800DD4C38 /* NSString+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LixExtension.h"; sourceTree = "<group>"; };
+		5651C6921DA89D3800DD4C38 /* NSString+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LixExtension.m"; sourceTree = "<group>"; };
+		5651C6931DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LixExtension.h"; sourceTree = "<group>"; };
+		5651C6941DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LixExtension.m"; sourceTree = "<group>"; };
+		5651C6951DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LixKeychainIDFV.h"; sourceTree = "<group>"; };
+		5651C6961DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LixKeychainIDFV.m"; sourceTree = "<group>"; };
+		5651C6971DA89D3800DD4C38 /* UIImage+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LixExtension.h"; sourceTree = "<group>"; };
+		5651C6981DA89D3800DD4C38 /* UIImage+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LixExtension.m"; sourceTree = "<group>"; };
+		5651C6991DA89D3800DD4C38 /* UINavigationBar+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LixExtension.h"; sourceTree = "<group>"; };
+		5651C69A1DA89D3800DD4C38 /* UINavigationBar+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LixExtension.m"; sourceTree = "<group>"; };
+		5651C69B1DA89D3800DD4C38 /* UIView+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LixExtension.h"; sourceTree = "<group>"; };
+		5651C69C1DA89D3800DD4C38 /* UIView+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LixExtension.m"; sourceTree = "<group>"; };
+		5651C69E1DA89D3800DD4C38 /* LixPrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixPrefixHeader.h; sourceTree = "<group>"; };
+		5651C6A21DA89D3800DD4C38 /* CalculateLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateLayout.h; sourceTree = "<group>"; };
+		5651C6A31DA89D3800DD4C38 /* CalculateLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateLayout.m; sourceTree = "<group>"; };
+		5651C6A41DA89D3800DD4C38 /* LixAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAlertUtil.h; sourceTree = "<group>"; };
+		5651C6A51DA89D3800DD4C38 /* LixAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAlertUtil.m; sourceTree = "<group>"; };
+		5651C6A61DA89D3800DD4C38 /* LixUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixUtils.h; sourceTree = "<group>"; };
+		5651C6A71DA89D3800DD4C38 /* LixUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixUtils.m; sourceTree = "<group>"; };
+		5651C6A91DA89D3800DD4C38 /* LixMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixMacro.h; sourceTree = "<group>"; };
+		59498BE926C2D1EC02D4BEF9 /* Pods-LixUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LixUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LixUtils/Pods-LixUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		5B693CC38BD82B601AD9424D /* Pods-LixUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LixUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-LixUtils/Pods-LixUtils.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABDF8DC78FD29FB2CE494B1 /* Pods_LixUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +112,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2006449D5B95D695771CB429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D3C76CF1933D19F8475513 /* Pods_LixUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5651C64E1DA89D2900DD4C38 = {
 			isa = PBXGroup;
 			children = (
+				5651C68D1DA89D3800DD4C38 /* LixTools */,
 				5651C6591DA89D2900DD4C38 /* LixUtils */,
 				5651C6731DA89D2900DD4C38 /* LixUtilsTests */,
 				5651C67E1DA89D2900DD4C38 /* LixUtilsUITests */,
 				5651C6581DA89D2900DD4C38 /* Products */,
+				D517779D9B957137FCE4371B /* Pods */,
+				2006449D5B95D695771CB429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +185,75 @@
 			path = LixUtilsUITests;
 			sourceTree = "<group>";
 		};
+		5651C68D1DA89D3800DD4C38 /* LixTools */ = {
+			isa = PBXGroup;
+			children = (
+				5651C68E1DA89D3800DD4C38 /* Catagory */,
+				5651C69D1DA89D3800DD4C38 /* Global */,
+				5651C6A11DA89D3800DD4C38 /* Helper */,
+				5651C6A81DA89D3800DD4C38 /* Macro */,
+			);
+			name = LixTools;
+			path = LixUtils/LixTools;
+			sourceTree = "<group>";
+		};
+		5651C68E1DA89D3800DD4C38 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				5651C6911DA89D3800DD4C38 /* NSString+LixExtension.h */,
+				5651C6921DA89D3800DD4C38 /* NSString+LixExtension.m */,
+				5651C6931DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.h */,
+				5651C6941DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.m */,
+				5651C6951DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.h */,
+				5651C6961DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.m */,
+				5651C6971DA89D3800DD4C38 /* UIImage+LixExtension.h */,
+				5651C6981DA89D3800DD4C38 /* UIImage+LixExtension.m */,
+				5651C6991DA89D3800DD4C38 /* UINavigationBar+LixExtension.h */,
+				5651C69A1DA89D3800DD4C38 /* UINavigationBar+LixExtension.m */,
+				5651C69B1DA89D3800DD4C38 /* UIView+LixExtension.h */,
+				5651C69C1DA89D3800DD4C38 /* UIView+LixExtension.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		5651C69D1DA89D3800DD4C38 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5651C69E1DA89D3800DD4C38 /* LixPrefixHeader.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		5651C6A11DA89D3800DD4C38 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5651C6A21DA89D3800DD4C38 /* CalculateLayout.h */,
+				5651C6A31DA89D3800DD4C38 /* CalculateLayout.m */,
+				5651C6A41DA89D3800DD4C38 /* LixAlertUtil.h */,
+				5651C6A51DA89D3800DD4C38 /* LixAlertUtil.m */,
+				5651C6A61DA89D3800DD4C38 /* LixUtils.h */,
+				5651C6A71DA89D3800DD4C38 /* LixUtils.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5651C6A81DA89D3800DD4C38 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5651C6A91DA89D3800DD4C38 /* LixMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		D517779D9B957137FCE4371B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59498BE926C2D1EC02D4BEF9 /* Pods-LixUtils.debug.xcconfig */,
+				5B693CC38BD82B601AD9424D /* Pods-LixUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5651C6841DA89D2900DD4C38 /* Build configuration list for PBXNativeTarget "LixUtils" */;
 			buildPhases = (
+				49D9F5AD2495ABCC6D0F0936 /* [CP] Check Pods Manifest.lock */,
 				5651C6531DA89D2900DD4C38 /* Sources */,
 				5651C6541DA89D2900DD4C38 /* Frameworks */,
 				5651C6551DA89D2900DD4C38 /* Resources */,
+				41C76D33514E54E4CC808961 /* [CP] Embed Pods Frameworks */,
+				D6151F41A128BCCEC1A2E7E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +385,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41C76D33514E54E4CC808961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LixUtils/Pods-LixUtils-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D9F5AD2495ABCC6D0F0936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6151F41A128BCCEC1A2E7E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LixUtils/Pods-LixUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5651C6531DA89D2900DD4C38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5651C6AD1DA89D3800DD4C38 /* UIDevice+LixKeychainIDFV.m in Sources */,
+				5651C6B41DA89D3800DD4C38 /* LixUtils.m in Sources */,
+				5651C6AC1DA89D3800DD4C38 /* UIBarButtonItem+LixExtension.m in Sources */,
 				5651C6621DA89D2900DD4C38 /* ViewController.m in Sources */,
+				5651C6AB1DA89D3800DD4C38 /* NSString+LixExtension.m in Sources */,
+				5651C6B21DA89D3800DD4C38 /* CalculateLayout.m in Sources */,
+				5651C6AF1DA89D3800DD4C38 /* UINavigationBar+LixExtension.m in Sources */,
 				5651C65F1DA89D2900DD4C38 /* AppDelegate.m in Sources */,
 				5651C65C1DA89D2900DD4C38 /* main.m in Sources */,
+				5651C6B31DA89D3800DD4C38 /* LixAlertUtil.m in Sources */,
+				5651C6B01DA89D3800DD4C38 /* UIView+LixExtension.m in Sources */,
+				5651C6AE1DA89D3800DD4C38 /* UIImage+LixExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +522,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -396,6 +571,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -422,23 +598,45 @@
 		};
 		5651C6851DA89D2900DD4C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59498BE926C2D1EC02D4BEF9 /* Pods-LixUtils.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LixUtils/LixTools/Global/LixPrefixHeader.h";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MOBFoundation_IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/SMSSDK\"",
+				);
 				INFOPLIST_FILE = LixUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lix.LixUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		5651C6861DA89D2900DD4C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B693CC38BD82B601AD9424D /* Pods-LixUtils.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LixUtils/LixTools/Global/LixPrefixHeader.h";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MOBFoundation_IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/SMSSDK\"",
+				);
 				INFOPLIST_FILE = LixUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lix.LixUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -507,6 +705,7 @@
 				5651C6861DA89D2900DD4C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5651C6871DA89D2900DD4C38 /* Build configuration list for PBXNativeTarget "LixUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +714,7 @@
 				5651C6891DA89D2900DD4C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5651C68A1DA89D2900DD4C38 /* Build configuration list for PBXNativeTarget "LixUtilsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +723,7 @@
 				5651C68C1DA89D2900DD4C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
